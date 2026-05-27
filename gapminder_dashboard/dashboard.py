@@ -11,7 +11,6 @@ st.set_page_config(page_title="Gapminder 대시보드", page_icon="🌍", layout
 st.title("🌍 Gapminder: 세계 발전 데이터 시각화")                                    # 페이지 맨 위 큰 제목
 st.caption("Hans Rosling의 TED 강연을 유명하게 만든 데이터 (1952~2007, 142개국)")    # 제목 아래 작은 설명 글씨
 
-df = pd.read_csv("gapminder.csv")  # CSV 파일을 표(데이터프레임)로 불러오기. 이후 모든 탭이 이 df를 함께 사용
 
 tab1, tab2, tab3, tab4 = st.tabs([   # 탭 4개를 한 번에 만들어 각각 tab1~tab4에 담기
     "🫧 애니메이션 버블",            # 첫 번째 탭 이름
